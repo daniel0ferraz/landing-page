@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,
+body,
+.capa {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: linear-gradient(48deg, rgba(58, 137, 255, 0.829), rgba(229, 226, 226, 0.781));
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.capa {
+    background: url('../imagens/qrcode.png') no-repeat 30%;
+    display: table;
+    background-position: top center  ;
+    width: 100%;
+    background-size: 300px;
+}
+
+.texto-capa {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color:rgb(15, 14, 14);
+    margin: 0;
+    margin-bottom: 12px;
+}
+p{
+    font-size: 35px;
+    font-weight: 900;
+   margin-bottom: 20px;
+}
+span{
+    color: rgb(240, 65, 103);
+}
+
+.btn-custom {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 32px;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(156, 155, 151, 0.733);
+}
+
+.btn-custom:hover {
+    color: #FFF;
+    transition: 0.2s;
+    background:rgba(240, 65, 103);
+}
+footer.rodape {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rodape h4 {
+    padding: 30px auto;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+}
